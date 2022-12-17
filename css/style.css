@@ -1,0 +1,247 @@
+/* common */
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100% - 32px);
+  /* background: #F7F1F0; */
+}
+
+li {
+  list-style: none;
+}
+
+main h2 {
+  text-align: center;
+  /* outline: 1px solid black; */
+  margin-top: 100px;
+  font-size: 18px;
+}
+
+main {
+  margin: 0;
+}
+
+/* header */
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+header .portfolio {
+  width:200px;
+  height:80px;
+  object-fit: cont;
+  opacity: 0.7;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+header li {
+  font-size: 16px;
+  color: black;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(127, 122, 122);
+}
+
+header li + li {
+  margin-left: 30px;
+}
+
+header ul + ul {
+  margin-top: 8px;
+}
+
+header .logo {
+  width: 32px;
+  height: 32px;
+}
+
+/* hero */
+
+main img {
+  width: 300px;
+  height: 150px;
+}
+
+.hero {
+  background: #F7F1F0;
+  display: flex;
+  /* justify-content: space-between; */
+  height: 600px;
+  width: 100%;
+}
+
+.hero img {
+  display: block;
+}
+
+.hero img + img {
+  margin-left: 160px;
+}
+
+.hero-center {
+  margin: 60px 0 0 100px;
+}
+
+.hero li{
+  margin-bottom:16px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.name::after{
+  content: "Tsurumi Tatsuya";
+  padding-left: 8px;
+}
+
+.hero h3 {
+  margin-left: 32px;
+  font-size: 32px;
+}
+
+.hero-center ul + h3 + ul li  {
+  margin-left: -72px;
+  list-style: disc;
+}
+
+
+
+.hero-right{
+  outline: 1px solid black;
+}
+
+
+
+/* container profile */
+
+.container {
+  position: relative;
+  
+}
+
+.container_profile_before::before {
+  content: "PROFILE";
+  color: #000;
+  font-size: 40px;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.article {
+  width: 60%;
+  margin: 0 auto 8px;
+  /* outline: 1px solid black; */
+  padding: 8px 0;
+}
+
+.img {
+  height: 500px;
+  width: 100%;
+  /* margin-left: 100px; */
+  object-fit: fill;
+}
+
+/* container profile */
+
+
+.container_work_before::before {
+  content: "WORK";
+  color: #000;
+  font-size: 40px;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+} 
+
+.container_skill_before::before {
+  content: "SKILL";
+  color: #000;
+  font-size: 40px;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* SKILL */
+
+.skill {
+  background: #F7F1F0;
+}
+
+
+
+
+.skill .article {
+  text-align: center;
+}
+
+h4 {
+  background: white;
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+
+
+/* WORk */
+
+.wrap {
+  display: flex;
+  justify-content: space-around; 
+}
+
+.wrap img {
+  width: 500px;
+  height: 300px;
+  outline: 4px solid black;
+}
+
+h6 {
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.pass {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.acount {
+  width: 500px;
+  outline: 1px solid black;
+  margin: 0 auto;
+}
+/* footer */
+
+.footer {
+  /* margin-right: 100px; */
+  text-align: center;
+  padding: 60px 0;
+  margin-top: 80px;
+}
